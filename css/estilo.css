@@ -1,0 +1,50 @@
+body{
+    background-image:url(https://c.wallhere.com/images/43/00/afe6133f9a31547c35170733da64-1954757.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+    
+h1{
+    background-image: rgb(51, 153, 114);
+    font-family: 'Courier New', Courier, monospace;
+    color:#f5f5f5
+}
+h3{
+    color: antiquewhite;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#numero{
+    width: 30%;
+    height: 30px;
+    background-color: #f5f5f5;
+    border-radius: 2rem;
+}
+#calcular{
+    border: .3rem solid red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f5f5;
+    border-radius: 6%;
+    text-align: center;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#calcular:hover{
+    cursor: pointer;
+    background-color: grey;
+    opacity: 60%;
+}
+#evento1{
+    color: #f5f5f5;
+    font-family: 'Courier New', Courier, monospace;
+}
+#evento2{
+    color: #f5f5f5;
+    font-family: 'Courier New', Courier, monospace;
+}
